@@ -1,11 +1,21 @@
-BugTrackingSystem
 =================
+BugTrackingSystem folder contains 4 projects.
 
-Bug Tracking system - contains 4 projects.
+The first project is the Bug tracking system's domain. It contains the repositories, unit of work classes, dbContext, 
+the models and others.
 
-LUDOgame-HangmanGame-DogWebsite
+The second project is the ASP.NET MVC application. It allows us to apply CRUD operations on the bugs. Add comments.
+Paging is implemented and the switching between paging is done with AJAX. The application uses bootstrap to apply styles.
 
-This project contains the LUDO game, Hangman game and a static dog related website.
+The third project is the ASP.NET Web API application. It allows us to to apply CRUD operations on the bugs by making
+http requests to the server.
+
+The fourth project contains the unit tests of the web api and mvc projects.
+
+All projects uses the same local database, which is created at the first start of the application by entity framework.
+
+=================
+DogWebSite-Hangman-LUDO folder contains the LUDO game, Hangman game and a static dog related website.
 
 - The LUDO game is created using HTML, CSS, JavaScript and JQuery. The game has a field and 4 players. 
 Each player is a different colour and have 4 pawns. There is a dice which should be thrown after each turn. 
