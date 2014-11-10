@@ -1,0 +1,31 @@
+﻿@model IEnumerable<BugTrackingSystem.Web.Models.GuestViewModel>
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+<div class="container">
+    <div class="table-responsive">
+        <table class="table table-striped table-bordered">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                @{int index = 1;}
+                @foreach (var bug in Model)
+                {
+                    <tr>
+                        <td>@index</td>
+                        <td>@bug.BugName</td>
+                        <td>@bug.Description</td>
+                    </tr>
+                    index++;
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

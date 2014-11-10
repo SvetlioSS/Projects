@@ -1,0 +1,41 @@
+﻿@model BugTrackingSystem.Web.Models.CommentViewModel
+@{
+    ViewBag.Title = "Comments";
+}
+
+<h2>Comments</h2>
+@using (Html.BeginForm("CommentGet", "Home", FormMethod.Post, new { role = "form" }))
+{
+    Html.RenderPartial("_DisplayCurrentBugPartial", Model.PagingViewModel);
+}
+<hr />
+@{
+    AjaxOptions ajaxOptionsObject = new AjaxOptions()
+    {
+        HttpMethod = "Post", 
+        InsertionMode = InsertionMode.InsertBefore, 
+        UpdateTargetId = "comments-container",
+        OnSuccess = "clearTextArea()"
+    };
+}
+@using (Ajax.BeginForm("Comment", ajaxOptionsObject))
+{
+    @Html.HiddenFor(m => m.PagingViewModel.ViewModels.First().Id)
+    @Html.TextArea("Content")
+    <input type="submit" value="Add comment" class="btn btn-primary" />
+}
+<div id="comments-container"> 
+    @foreach (var comment in Model.Comments)
+    {
+            Html.RenderPartial("_CommentPartial", comment);
+    }
+</div>
+
+@section scripts 
+{
+    <script>
+        function clearTextArea() {
+            $('#Content').val('');
+        }
+    </script>
+}

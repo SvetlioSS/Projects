@@ -1,0 +1,89 @@
+﻿@using System.Collections;
+@using BugTrackingSystem.Web.Models
+@model PagingViewModel
+@{
+    ViewBag.Title = "Home Page";
+}
+<div class="container">
+    <div class="table-responsive">
+        <div id="loading" style="display:none">Loading...</div>
+        <table id="bug-details" class="table table-striped table-bordered">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @{int index = Model.BugStartingIndex;}
+                @foreach (var bug in Model.ViewModels)
+                {
+                    <tr>
+                        <td>@index</td>
+                        <td>@bug.Name</td>
+                        <td>@bug.Description</td>
+                        <td>                           
+                            @{var bugViewModels = new [] { bug }; }
+                            @{Html.RenderPartial("_AddUpdateRemoveCommentLinksPartial",
+                                  new PagingViewModel()
+                                  {
+                                      BugStartingIndex = Model.BugStartingIndex,
+                                      Page = Model.Page,
+                                      ShowDetails = Model.ShowDetails,
+                                      TotalPages = Model.TotalPages,
+                                      ViewModels = bugViewModels.AsEnumerable<BugViewModel>()
+                                  });
+                            }
+                        </td>
+                    </tr>
+                    index++;
+                }
+            </tbody>
+        </table>
+    </div>
+
+    @Html.ActionLink("Register a bug", "AddBugGet",
+        new AddBugViewModel()
+        {
+            BugStartingIndex = @Model.BugStartingIndex,
+            Page = @Model.Page,
+            ShowDetails = @Model.ShowDetails,
+            TotalPages = @Model.TotalPages
+        },
+        new { @class = "btn btn-primary", style = "margin-bottom: 10px"})
+
+    @using (Ajax.BeginForm("Index", new AjaxOptions() { HttpMethod = "GET", UpdateTargetId = "bug-details" }))
+    {
+        @Html.HiddenFor(m => m.Page, new { value = Model.Page });
+        @Html.HiddenFor(m => m.ShowDetails);
+        for (int i = 1; i <= Model.TotalPages; i++)
+        {
+            <input type="submit" value="@i" class="btn btn-primary" onclick="changePage(@i)"/>
+        }
+        <input id="show-details-button" type="submit" value="Show details" class="btn btn-link" onclick="changeShowDetails()" />
+        <input id="hide-details-button" type="submit" value="Hide details" class="btn btn-link" onclick="changeShowDetails()" style="display: none"/>
+    }
+</div>
+
+@section scripts 
+{
+    <script>
+        function changeShowDetails() {
+            var showDetailsIsTrue = ($("#ShowDetails").val() == 'true');
+            if (showDetailsIsTrue == true) {
+                $("#ShowDetails").val(false);
+                $("#show-details-button").show();
+                $("#hide-details-button").hide();
+            } else {
+                $("#ShowDetails").val(true);
+                $("#show-details-button").hide();
+                $("#hide-details-button").show();
+            }
+        }
+        function changePage(pageNumber) {
+            $("#Page").val(pageNumber);
+        }
+    </script>
+}

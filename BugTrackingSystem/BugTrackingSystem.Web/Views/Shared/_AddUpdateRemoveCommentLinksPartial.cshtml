@@ -1,0 +1,27 @@
+﻿@using BugTrackingSystem.Web.Models
+@model PagingViewModel
+@Html.ActionLink("Add", "AddBugGet", 
+    new AddBugViewModel() 
+    {
+        BugStartingIndex = @Model.BugStartingIndex,
+        Page = @Model.Page,
+        ShowDetails = @Model.ShowDetails,
+        TotalPages = @Model.TotalPages 
+    }, 
+    new { @class = "btn btn-sm" })
+<span>|</span>
+@{
+    var routeValues = new 
+        {
+           BugStartingIndex = Model.BugStartingIndex,
+           Page = Model.Page,
+           ShowDetails = Model.ShowDetails,
+           TotalPages = Model.TotalPages,
+           Id = Model.ViewModels.First().Id
+        };
+}
+@Html.ActionLink("Update", "UpdateBugGet", routeValues, new { @class = "btn btn-sm" })
+<span>|</span>
+@Html.ActionLink("Remove", "RemoveBug", routeValues, new { @class = "btn btn-sm" })
+<span>|</span>
+@Html.ActionLink("Comment", "CommentGet", routeValues, new { @class = "btn btn-sm" })

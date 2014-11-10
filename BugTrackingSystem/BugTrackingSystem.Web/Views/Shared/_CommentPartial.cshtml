@@ -1,0 +1,11 @@
+﻿@model BugTrackingSystem.Domain.Models.Comment
+<div class="bug-comment">
+    <div>
+        <span class="bug-comment-author-name">@Model.Author.UserName</span>
+        <span>says:</span>
+    </div>
+    <hr class="bug-comment-separator" />
+    <div class="bug-comment-content">@Model.Content</div>
+    <hr class="bug-comment-separator" />
+    <div class="bug-comment-date-created">@Model.DateCreated</div>
+</div>

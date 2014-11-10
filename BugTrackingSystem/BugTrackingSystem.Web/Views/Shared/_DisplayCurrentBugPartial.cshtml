@@ -1,0 +1,11 @@
+﻿@model BugTrackingSystem.Web.Models.PagingViewModel
+
+<div><strong>Name:</strong> @Html.DisplayFor(m => m.ViewModels.First().Name)</div>
+<div><strong>Description:</strong> @Html.DisplayFor(m => m.ViewModels.First().Description)</div>
+<div><strong>State:</strong> @Html.DisplayFor(m => m.ViewModels.First().State)</div>
+<div><strong>Priority:</strong> @Html.DisplayFor(m => m.ViewModels.First().Priority)</div>
+<div><strong>Date issued:</strong> @Html.DisplayFor(m => m.ViewModels.First().DateIssued)</div>
+<div><strong>Author name:</strong> @Html.DisplayFor(m => m.ViewModels.First().AuthorName)</div>
+@Html.HiddenFor(m => m.ViewModels.First().Id)
+@Html.HiddenFor(m => m.ViewModels.First().AuthorId)
+

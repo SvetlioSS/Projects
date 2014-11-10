@@ -1,0 +1,25 @@
+﻿.bug-comment {
+    width: 30%;
+    border: 1px solid black;
+    border-radius: 3px 4px;
+    background-color: #FCFCFC;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+.bug-comment-author-name {
+    font-weight: bold;
+}
+.bug-comment-date-created {
+    color: #CCCCCC;
+}
+.bug-comment-separator {
+    margin: 0px;
+}
+.bug-comment-content {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+#Content {
+    width: 20%;
+}

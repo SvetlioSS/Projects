@@ -1,0 +1,34 @@
+﻿@using BugTrackingSystem.Web.Models
+@model PagingViewModel
+<thead>
+    <tr>
+        <th>#</th>
+        <th>Name</th>
+        <th>Description</th>
+        <th>Actions</th>
+    </tr>
+</thead>
+<tbody>
+    @{int index = Model.BugStartingIndex;}
+    @foreach (var bug in Model.ViewModels)
+    {
+        <tr>
+            <td>@index</td>
+            <td>@bug.Name</td>
+            <td>@bug.Description</td>
+            <td>
+                @{Html.RenderPartial("_AddUpdateRemoveCommentLinksPartial",
+                      new PagingViewModel()
+                      {
+                          BugStartingIndex = Model.BugStartingIndex,
+                          Page = Model.Page,
+                          ShowDetails = Model.ShowDetails,
+                          TotalPages = Model.TotalPages,
+                          ViewModels = new[] { bug }
+                      });
+                }
+            </td>
+        </tr>
+        index++;
+    }
+</tbody>

@@ -1,0 +1,134 @@
+c:\users\sspasov\documents\visual studio 2013\Projects\BugTrackingSystem\BugTrackingSystem.Web\bin\BugTrackingSystem.Web.dll.config
+c:\users\sspasov\documents\visual studio 2013\Projects\BugTrackingSystem\BugTrackingSystem.Web\bin\BugTrackingSystem.Web.dll
+c:\users\sspasov\documents\visual studio 2013\Projects\BugTrackingSystem\BugTrackingSystem.Web\bin\BugTrackingSystem.Web.pdb
+c:\users\sspasov\documents\visual studio 2013\Projects\BugTrackingSystem\BugTrackingSystem.Web\bin\Antlr3.Runtime.dll
+c:\users\sspasov\documents\visual studio 2013\Projects\BugTrackingSystem\BugTrackingSystem.Web\bin\EntityFramework.dll
+c:\users\sspasov\documents\visual studio 2013\Projects\BugTrackingSystem\BugTrackingSystem.Web\bin\EntityFramework.SqlServer.dll
+c:\users\sspasov\documents\visual studio 2013\Projects\BugTrackingSystem\BugTrackingSystem.Web\bin\Microsoft.AspNet.Identity.Core.dll
+c:\users\sspasov\documents\visual studio 2013\Projects\BugTrackingSystem\BugTrackingSystem.Web\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+c:\users\sspasov\documents\visual studio 2013\Projects\BugTrackingSystem\BugTrackingSystem.Web\bin\Microsoft.AspNet.Identity.Owin.dll
+c:\users\sspasov\documents\visual studio 2013\Projects\BugTrackingSystem\BugTrackingSystem.Web\bin\Microsoft.Owin.dll
+c:\users\sspasov\documents\visual studio 2013\Projects\BugTrackingSystem\BugTrackingSystem.Web\bin\Microsoft.Owin.Host.SystemWeb.dll
+c:\users\sspasov\documents\visual studio 2013\Projects\BugTrackingSystem\BugTrackingSystem.Web\bin\Microsoft.Owin.Security.Cookies.dll
+c:\users\sspasov\documents\visual studio 2013\Projects\BugTrackingSystem\BugTrackingSystem.Web\bin\Microsoft.Owin.Security.dll
+c:\users\sspasov\documents\visual studio 2013\Projects\BugTrackingSystem\BugTrackingSystem.Web\bin\Microsoft.Owin.Security.Facebook.dll
+c:\users\sspasov\documents\visual studio 2013\Projects\BugTrackingSystem\BugTrackingSystem.Web\bin\Microsoft.Owin.Security.Google.dll
+c:\users\sspasov\documents\visual studio 2013\Projects\BugTrackingSystem\BugTrackingSystem.Web\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+c:\users\sspasov\documents\visual studio 2013\Projects\BugTrackingSystem\BugTrackingSystem.Web\bin\Microsoft.Owin.Security.OAuth.dll
+c:\users\sspasov\documents\visual studio 2013\Projects\BugTrackingSystem\BugTrackingSystem.Web\bin\Microsoft.Owin.Security.Twitter.dll
+c:\users\sspasov\documents\visual studio 2013\Projects\BugTrackingSystem\BugTrackingSystem.Web\bin\Microsoft.Web.Infrastructure.dll
+c:\users\sspasov\documents\visual studio 2013\Projects\BugTrackingSystem\BugTrackingSystem.Web\bin\Newtonsoft.Json.dll
+c:\users\sspasov\documents\visual studio 2013\Projects\BugTrackingSystem\BugTrackingSystem.Web\bin\Owin.dll
+c:\users\sspasov\documents\visual studio 2013\Projects\BugTrackingSystem\BugTrackingSystem.Web\bin\System.Web.Helpers.dll
+c:\users\sspasov\documents\visual studio 2013\Projects\BugTrackingSystem\BugTrackingSystem.Web\bin\System.Web.Mvc.dll
+c:\users\sspasov\documents\visual studio 2013\Projects\BugTrackingSystem\BugTrackingSystem.Web\bin\System.Web.Optimization.dll
+c:\users\sspasov\documents\visual studio 2013\Projects\BugTrackingSystem\BugTrackingSystem.Web\bin\System.Web.Razor.dll
+c:\users\sspasov\documents\visual studio 2013\Projects\BugTrackingSystem\BugTrackingSystem.Web\bin\System.Web.WebPages.Deployment.dll
+c:\users\sspasov\documents\visual studio 2013\Projects\BugTrackingSystem\BugTrackingSystem.Web\bin\System.Web.WebPages.dll
+c:\users\sspasov\documents\visual studio 2013\Projects\BugTrackingSystem\BugTrackingSystem.Web\bin\System.Web.WebPages.Razor.dll
+c:\users\sspasov\documents\visual studio 2013\Projects\BugTrackingSystem\BugTrackingSystem.Web\bin\WebGrease.dll
+c:\users\sspasov\documents\visual studio 2013\Projects\BugTrackingSystem\BugTrackingSystem.Web\bin\System.Web.Helpers.xml
+c:\users\sspasov\documents\visual studio 2013\Projects\BugTrackingSystem\BugTrackingSystem.Web\bin\System.Web.Mvc.xml
+c:\users\sspasov\documents\visual studio 2013\Projects\BugTrackingSystem\BugTrackingSystem.Web\bin\System.Web.Optimization.xml
+c:\users\sspasov\documents\visual studio 2013\Projects\BugTrackingSystem\BugTrackingSystem.Web\bin\System.Web.Razor.xml
+c:\users\sspasov\documents\visual studio 2013\Projects\BugTrackingSystem\BugTrackingSystem.Web\bin\System.Web.WebPages.xml
+c:\users\sspasov\documents\visual studio 2013\Projects\BugTrackingSystem\BugTrackingSystem.Web\bin\System.Web.WebPages.Deployment.xml
+c:\users\sspasov\documents\visual studio 2013\Projects\BugTrackingSystem\BugTrackingSystem.Web\bin\System.Web.WebPages.Razor.xml
+c:\users\sspasov\documents\visual studio 2013\Projects\BugTrackingSystem\BugTrackingSystem.Web\bin\Antlr3.Runtime.pdb
+c:\users\sspasov\documents\visual studio 2013\Projects\BugTrackingSystem\BugTrackingSystem.Web\bin\Newtonsoft.Json.xml
+c:\users\sspasov\documents\visual studio 2013\Projects\BugTrackingSystem\BugTrackingSystem.Web\bin\EntityFramework.xml
+c:\users\sspasov\documents\visual studio 2013\Projects\BugTrackingSystem\BugTrackingSystem.Web\bin\EntityFramework.SqlServer.xml
+c:\users\sspasov\documents\visual studio 2013\Projects\BugTrackingSystem\BugTrackingSystem.Web\bin\Microsoft.AspNet.Identity.Core.xml
+c:\users\sspasov\documents\visual studio 2013\Projects\BugTrackingSystem\BugTrackingSystem.Web\bin\Microsoft.AspNet.Identity.Owin.xml
+c:\users\sspasov\documents\visual studio 2013\Projects\BugTrackingSystem\BugTrackingSystem.Web\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+c:\users\sspasov\documents\visual studio 2013\Projects\BugTrackingSystem\BugTrackingSystem.Web\bin\Microsoft.Owin.xml
+c:\users\sspasov\documents\visual studio 2013\Projects\BugTrackingSystem\BugTrackingSystem.Web\bin\Microsoft.Owin.Host.SystemWeb.xml
+c:\users\sspasov\documents\visual studio 2013\Projects\BugTrackingSystem\BugTrackingSystem.Web\bin\Microsoft.Owin.Security.xml
+c:\users\sspasov\documents\visual studio 2013\Projects\BugTrackingSystem\BugTrackingSystem.Web\bin\Microsoft.Owin.Security.Facebook.xml
+c:\users\sspasov\documents\visual studio 2013\Projects\BugTrackingSystem\BugTrackingSystem.Web\bin\Microsoft.Owin.Security.Cookies.xml
+c:\users\sspasov\documents\visual studio 2013\Projects\BugTrackingSystem\BugTrackingSystem.Web\bin\Microsoft.Owin.Security.OAuth.xml
+c:\users\sspasov\documents\visual studio 2013\Projects\BugTrackingSystem\BugTrackingSystem.Web\bin\Microsoft.Owin.Security.Google.xml
+c:\users\sspasov\documents\visual studio 2013\Projects\BugTrackingSystem\BugTrackingSystem.Web\bin\Microsoft.Owin.Security.Twitter.xml
+c:\users\sspasov\documents\visual studio 2013\Projects\BugTrackingSystem\BugTrackingSystem.Web\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+c:\users\sspasov\documents\visual studio 2013\Projects\BugTrackingSystem\BugTrackingSystem.Web\obj\Debug\BugTrackingSystem.Web.csprojResolveAssemblyReference.cache
+c:\users\sspasov\documents\visual studio 2013\Projects\BugTrackingSystem\BugTrackingSystem.Web\obj\Debug\BugTrackingSystem.Web.dll
+c:\users\sspasov\documents\visual studio 2013\Projects\BugTrackingSystem\BugTrackingSystem.Web\obj\Debug\BugTrackingSystem.Web.pdb
+c:\users\sspasov\documents\visual studio 2013\Projects\BugTrackingSystem\BugTrackingSystem.Web\bin\BugTrackingSystem.Domain.dll
+c:\users\sspasov\documents\visual studio 2013\Projects\BugTrackingSystem\BugTrackingSystem.Web\bin\Ninject.MVC.dll
+c:\users\sspasov\documents\visual studio 2013\Projects\BugTrackingSystem\BugTrackingSystem.Web\bin\BugTrackingSystem.Domain.pdb
+c:\users\sspasov\documents\visual studio 2013\Projects\BugTrackingSystem\BugTrackingSystem.Web\bin\Ninject.dll
+c:\users\sspasov\documents\visual studio 2013\Projects\BugTrackingSystem\BugTrackingSystem.Web\bin\Ninject.Web.Common.dll
+c:\users\sspasov\documents\visual studio 2013\Projects\BugTrackingSystem\BugTrackingSystem.Web\bin\Ninject.Web.Mvc.dll
+c:\users\sspasov\documents\visual studio 2013\Projects\BugTrackingSystem\BugTrackingSystem.Web\bin\WebActivatorEx.dll
+c:\users\sspasov\documents\visual studio 2013\Projects\BugTrackingSystem\BugTrackingSystem.Web\bin\Ninject.xml
+c:\users\sspasov\documents\visual studio 2013\Projects\BugTrackingSystem\BugTrackingSystem.Web\bin\Ninject.Web.Common.xml
+c:\users\sspasov\documents\visual studio 2013\Projects\BugTrackingSystem\BugTrackingSystem.Web\bin\Ninject.Web.Mvc.xml
+C:\Users\sspasov\documents\visual studio 2013\Projects\BugTrackingSystem\BugTrackingSystem.Web\bin\System.Web.Http.dll
+C:\Users\sspasov\documents\visual studio 2013\Projects\BugTrackingSystem\BugTrackingSystem.Web\bin\System.Net.Http.Formatting.dll
+C:\Users\sspasov\documents\visual studio 2013\Projects\BugTrackingSystem\BugTrackingSystem.Web\bin\System.Web.Http.xml
+C:\Users\sspasov\documents\visual studio 2013\Projects\BugTrackingSystem\BugTrackingSystem.Web\bin\System.Net.Http.Formatting.xml
+C:\Users\svetl_000\Desktop\Projects2\Projects\BugTrackingSystem\BugTrackingSystem.Web\bin\BugTrackingSystem.Web.dll.config
+C:\Users\svetl_000\Desktop\Projects2\Projects\BugTrackingSystem\BugTrackingSystem.Web\bin\BugTrackingSystem.Web.dll
+C:\Users\svetl_000\Desktop\Projects2\Projects\BugTrackingSystem\BugTrackingSystem.Web\bin\BugTrackingSystem.Web.pdb
+C:\Users\svetl_000\Desktop\Projects2\Projects\BugTrackingSystem\BugTrackingSystem.Web\bin\Antlr3.Runtime.dll
+C:\Users\svetl_000\Desktop\Projects2\Projects\BugTrackingSystem\BugTrackingSystem.Web\bin\BugTrackingSystem.Domain.dll
+C:\Users\svetl_000\Desktop\Projects2\Projects\BugTrackingSystem\BugTrackingSystem.Web\bin\EntityFramework.dll
+C:\Users\svetl_000\Desktop\Projects2\Projects\BugTrackingSystem\BugTrackingSystem.Web\bin\EntityFramework.SqlServer.dll
+C:\Users\svetl_000\Desktop\Projects2\Projects\BugTrackingSystem\BugTrackingSystem.Web\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\svetl_000\Desktop\Projects2\Projects\BugTrackingSystem\BugTrackingSystem.Web\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\svetl_000\Desktop\Projects2\Projects\BugTrackingSystem\BugTrackingSystem.Web\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\svetl_000\Desktop\Projects2\Projects\BugTrackingSystem\BugTrackingSystem.Web\bin\Microsoft.Owin.dll
+C:\Users\svetl_000\Desktop\Projects2\Projects\BugTrackingSystem\BugTrackingSystem.Web\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\svetl_000\Desktop\Projects2\Projects\BugTrackingSystem\BugTrackingSystem.Web\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\svetl_000\Desktop\Projects2\Projects\BugTrackingSystem\BugTrackingSystem.Web\bin\Microsoft.Owin.Security.dll
+C:\Users\svetl_000\Desktop\Projects2\Projects\BugTrackingSystem\BugTrackingSystem.Web\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\svetl_000\Desktop\Projects2\Projects\BugTrackingSystem\BugTrackingSystem.Web\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\svetl_000\Desktop\Projects2\Projects\BugTrackingSystem\BugTrackingSystem.Web\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\svetl_000\Desktop\Projects2\Projects\BugTrackingSystem\BugTrackingSystem.Web\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\svetl_000\Desktop\Projects2\Projects\BugTrackingSystem\BugTrackingSystem.Web\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\svetl_000\Desktop\Projects2\Projects\BugTrackingSystem\BugTrackingSystem.Web\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\svetl_000\Desktop\Projects2\Projects\BugTrackingSystem\BugTrackingSystem.Web\bin\Newtonsoft.Json.dll
+C:\Users\svetl_000\Desktop\Projects2\Projects\BugTrackingSystem\BugTrackingSystem.Web\bin\Ninject.dll
+C:\Users\svetl_000\Desktop\Projects2\Projects\BugTrackingSystem\BugTrackingSystem.Web\bin\Ninject.MVC.dll
+C:\Users\svetl_000\Desktop\Projects2\Projects\BugTrackingSystem\BugTrackingSystem.Web\bin\Ninject.Web.Common.dll
+C:\Users\svetl_000\Desktop\Projects2\Projects\BugTrackingSystem\BugTrackingSystem.Web\bin\Ninject.Web.Mvc.dll
+C:\Users\svetl_000\Desktop\Projects2\Projects\BugTrackingSystem\BugTrackingSystem.Web\bin\Owin.dll
+C:\Users\svetl_000\Desktop\Projects2\Projects\BugTrackingSystem\BugTrackingSystem.Web\bin\System.Web.Helpers.dll
+C:\Users\svetl_000\Desktop\Projects2\Projects\BugTrackingSystem\BugTrackingSystem.Web\bin\System.Web.Mvc.dll
+C:\Users\svetl_000\Desktop\Projects2\Projects\BugTrackingSystem\BugTrackingSystem.Web\bin\System.Web.Optimization.dll
+C:\Users\svetl_000\Desktop\Projects2\Projects\BugTrackingSystem\BugTrackingSystem.Web\bin\System.Web.Razor.dll
+C:\Users\svetl_000\Desktop\Projects2\Projects\BugTrackingSystem\BugTrackingSystem.Web\bin\System.Web.WebPages.Deployment.dll
+C:\Users\svetl_000\Desktop\Projects2\Projects\BugTrackingSystem\BugTrackingSystem.Web\bin\System.Web.WebPages.dll
+C:\Users\svetl_000\Desktop\Projects2\Projects\BugTrackingSystem\BugTrackingSystem.Web\bin\System.Web.WebPages.Razor.dll
+C:\Users\svetl_000\Desktop\Projects2\Projects\BugTrackingSystem\BugTrackingSystem.Web\bin\WebActivatorEx.dll
+C:\Users\svetl_000\Desktop\Projects2\Projects\BugTrackingSystem\BugTrackingSystem.Web\bin\WebGrease.dll
+C:\Users\svetl_000\Desktop\Projects2\Projects\BugTrackingSystem\BugTrackingSystem.Web\bin\BugTrackingSystem.Domain.pdb
+C:\Users\svetl_000\Desktop\Projects2\Projects\BugTrackingSystem\BugTrackingSystem.Web\bin\Ninject.xml
+C:\Users\svetl_000\Desktop\Projects2\Projects\BugTrackingSystem\BugTrackingSystem.Web\bin\Ninject.Web.Common.xml
+C:\Users\svetl_000\Desktop\Projects2\Projects\BugTrackingSystem\BugTrackingSystem.Web\bin\Ninject.Web.Mvc.xml
+C:\Users\svetl_000\Desktop\Projects2\Projects\BugTrackingSystem\BugTrackingSystem.Web\bin\System.Web.Helpers.xml
+C:\Users\svetl_000\Desktop\Projects2\Projects\BugTrackingSystem\BugTrackingSystem.Web\bin\System.Web.Mvc.xml
+C:\Users\svetl_000\Desktop\Projects2\Projects\BugTrackingSystem\BugTrackingSystem.Web\bin\System.Web.Razor.xml
+C:\Users\svetl_000\Desktop\Projects2\Projects\BugTrackingSystem\BugTrackingSystem.Web\bin\System.Web.WebPages.xml
+C:\Users\svetl_000\Desktop\Projects2\Projects\BugTrackingSystem\BugTrackingSystem.Web\bin\System.Web.WebPages.Deployment.xml
+C:\Users\svetl_000\Desktop\Projects2\Projects\BugTrackingSystem\BugTrackingSystem.Web\bin\System.Web.WebPages.Razor.xml
+C:\Users\svetl_000\Desktop\Projects2\Projects\BugTrackingSystem\BugTrackingSystem.Web\bin\System.Web.Optimization.xml
+C:\Users\svetl_000\Desktop\Projects2\Projects\BugTrackingSystem\BugTrackingSystem.Web\bin\Antlr3.Runtime.pdb
+C:\Users\svetl_000\Desktop\Projects2\Projects\BugTrackingSystem\BugTrackingSystem.Web\bin\Newtonsoft.Json.xml
+C:\Users\svetl_000\Desktop\Projects2\Projects\BugTrackingSystem\BugTrackingSystem.Web\bin\EntityFramework.xml
+C:\Users\svetl_000\Desktop\Projects2\Projects\BugTrackingSystem\BugTrackingSystem.Web\bin\EntityFramework.SqlServer.xml
+C:\Users\svetl_000\Desktop\Projects2\Projects\BugTrackingSystem\BugTrackingSystem.Web\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\svetl_000\Desktop\Projects2\Projects\BugTrackingSystem\BugTrackingSystem.Web\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\svetl_000\Desktop\Projects2\Projects\BugTrackingSystem\BugTrackingSystem.Web\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\svetl_000\Desktop\Projects2\Projects\BugTrackingSystem\BugTrackingSystem.Web\bin\Microsoft.Owin.xml
+C:\Users\svetl_000\Desktop\Projects2\Projects\BugTrackingSystem\BugTrackingSystem.Web\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\svetl_000\Desktop\Projects2\Projects\BugTrackingSystem\BugTrackingSystem.Web\bin\Microsoft.Owin.Security.xml
+C:\Users\svetl_000\Desktop\Projects2\Projects\BugTrackingSystem\BugTrackingSystem.Web\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\svetl_000\Desktop\Projects2\Projects\BugTrackingSystem\BugTrackingSystem.Web\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\svetl_000\Desktop\Projects2\Projects\BugTrackingSystem\BugTrackingSystem.Web\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\svetl_000\Desktop\Projects2\Projects\BugTrackingSystem\BugTrackingSystem.Web\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\svetl_000\Desktop\Projects2\Projects\BugTrackingSystem\BugTrackingSystem.Web\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\svetl_000\Desktop\Projects2\Projects\BugTrackingSystem\BugTrackingSystem.Web\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\svetl_000\Desktop\Projects2\Projects\BugTrackingSystem\BugTrackingSystem.Web\obj\Debug\BugTrackingSystem.Web.csprojResolveAssemblyReference.cache
+C:\Users\svetl_000\Desktop\Projects2\Projects\BugTrackingSystem\BugTrackingSystem.Web\obj\Debug\BugTrackingSystem.Web.dll
+C:\Users\svetl_000\Desktop\Projects2\Projects\BugTrackingSystem\BugTrackingSystem.Web\obj\Debug\BugTrackingSystem.Web.pdb
