@@ -1,0 +1,278 @@
+﻿body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: gray;
+}
+#wrapper {
+    width: 800px;
+    height: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+table, th, td {
+    box-sizing: border-box;
+    background-color: white;
+    border: 1px solid black;
+}
+td {
+    height: 50px;
+    width: 50px;
+}
+#middle {
+    padding: 0px;
+    position: relative;
+}
+#middle-square {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    font-size: 0px;
+    line-height: 0%;
+    width: 0px;
+    border-top: 76px solid blue;
+    border-bottom: 76px solid yellow;
+    border-left: 76px solid red;
+    border-right: 76px solid green;
+}
+
+/* Start - middle circles */
+#inner-square-red, #inner-square-blue,
+#inner-square-green, #inner-square-yellow {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: white;
+}
+#inner-square-red {
+    bottom: 50px;
+    left: 1px;
+}
+#inner-square-blue {
+    bottom: 101px;
+    left: 50px;
+}
+#inner-square-green {
+    bottom: 50px;
+    left: 100px;
+}
+#inner-square-yellow {
+    bottom: 1px;
+    left: 50px;
+}
+/* End - middle circles */
+
+/* Start - squares */
+.red, .green, .blue, .yellow {
+    border-color: black;
+}
+.red {
+    background-color: red;
+}
+.green {
+    background-color: green;
+}
+.blue {
+    background-color: blue;
+}
+.yellow {
+    background-color: yellow;
+}
+.square {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: white;
+}
+#top-left-square {
+    background-image: url('../images/red0.png');
+    position: relative;
+}
+#top-right-square {
+    background-image: url('../images/blue0.png');
+    position: relative;
+}
+#bottom-left-square {
+    background-image: url('../images/yellow0.png');
+    position: relative;
+}
+#bottom-right-square {
+    background-image: url('../images/green0.png');
+    position: relative;
+}
+/* End - squares */
+
+/* Start - pawns */
+.greenPawn, .bluePawn, .redPawn, .yellowPawn {
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+}
+.redPawn {
+    background-image: url('../images/redPawn.png');
+}
+.greenPawn {
+    background-image: url('../images/greenPawn.png');
+}
+.bluePawn {
+    background-image: url('../images/bluePawn.png');
+}
+.yellowPawn {
+    background-image: url('../images/yellowPawn.png');
+}
+/* End - pawns */
+
+/* Start - arrows */
+#redArrow {
+    background-image: url('../images/redArrow.png');
+}
+#blueArrow {
+    background-image: url('../images/blueArrow.png');
+}
+#greenArrow {
+    background-image: url('../images/greenArrow.png');
+}
+#yellowArrow {
+    background-image: url('../images/yellowArrow.png');
+}
+/* End - arrows */
+
+/* Start - results */
+#results {
+    margin-left: 2px;
+    padding-bottom: 4px;
+}
+    #results p {
+        margin: 0px;
+        padding: 0px;
+        display: inline-block;
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+        box-sizing: border-box;
+        padding-left: 5px;
+    }
+    #results div {
+        display: inline-block;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 1.2em;
+        background-color: white;
+    }
+div.whitePawn {
+    background-image: url('../images/whitePawn.png');
+    background-size: 40px;
+    background-position-x: -9px;
+    width: 25px;
+    height: 40px;
+}
+#red-title {
+    color: red;
+}
+#blue-title {
+    color: blue;
+}
+#green-title {
+    color: green;
+}
+#yellow-title {
+    color: #efef2d;
+}
+/* End - results */
+
+/* Start - player turn and dice */
+#player-turn-and-dice {
+    width: 60%;
+    height: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    position: relative;
+}
+#player-turn-and-dice div, #player-turn-and-dice p {
+    display: inline-block;
+}
+#player-turn-and-dice p {
+    transform: translateY(13%);
+    box-sizing: border-box;
+    padding-left: 5px;
+    margin: 0px;
+    font-size: 2em;
+    position: absolute;
+}
+#dice {
+    width: 55px;
+    height: 55px;
+    margin: 10px;
+    position: absolute;
+    bottom: -4px;
+    left: 400px;
+    border: 1px solid black;
+}
+#roll_dice_button {
+    outline: none;
+    color: white;
+    width: 100px;
+    height: 50px;
+    transform: translateX(40%);
+    margin-top: 10px;
+    font-size: 1.1em;
+    display: inline-block;
+    position: absolute;
+    bottom: 10px;
+    left: 250px;
+    background-color: gray;
+    border: 1px solid black;
+    box-shadow: 3px 3px 3px gray;
+}
+#roll_dice_button:active {
+    box-shadow: 0px 0px 0px gray;
+    bottom: 7px;
+    left: 253px;
+}
+#roll_dice_button.not-active:active {
+    box-shadow: 3px 3px 3px gray;
+    bottom: 10px !important;
+    left: 250px !important;
+}
+/* End - player turn and dice */
+
+/* Start - glow effects */
+.glow-effect {
+    -webkit-animation:pulse 0.5s infinite alternate;
+}
+@-webkit-keyframes pulse {
+  from { box-shadow:0px 0px 10px 3px #0066cc; }
+  to { box-shadow:0px 0px 20px 5px #0066cc; }
+}
+.glow-effect-red {
+    -webkit-animation:pulseRed 0.5s infinite alternate;
+}
+@-webkit-keyframes pulseRed {
+  from { box-shadow:0px 0px 10px 4px red; }
+  to { box-shadow:0px 0px 20px 6px red; }
+}
+.glow-effect-blue {
+    -webkit-animation:pulseBlue 0.5s infinite alternate;
+}
+@-webkit-keyframes pulseBlue {
+  from { box-shadow:0px 0px 10px 4px blue; }
+  to { box-shadow:0px 0px 20px 6px blue; }
+}
+.glow-effect-green {
+    -webkit-animation:pulseGreen 0.5s infinite alternate;
+}
+@-webkit-keyframes pulseGreen {
+  from { box-shadow:0px 0px 10px 4px green; }
+  to { box-shadow:0px 0px 20px 6px green; }
+}
+.glow-effect-yellow {
+    -webkit-animation:pulseYellow 0.5s infinite alternate;
+}
+@-webkit-keyframes pulseYellow {
+  from { box-shadow:0px 0px 10px 4px yellow; }
+  to { box-shadow:0px 0px 20px 6px yellow; }
+}
+/* End - glow effects */

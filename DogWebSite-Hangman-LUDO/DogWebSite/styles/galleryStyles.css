@@ -1,0 +1,22 @@
+﻿main {
+    width: 96%;
+    font-size: 1.2em;
+    line-height: 110%;
+    padding: 0px;
+}
+main h1 {
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+.small {
+    width: 96%;
+}
+div.pagination a img {
+    width: 95%;
+}
+nav a:hover {
+    text-decoration: none;
+}
+main img {
+    width: 87%;
+}

@@ -1,0 +1,201 @@
+﻿body {
+    margin: 0px;
+    background-color: lightgray;
+    font-family: Verdana;
+}
+
+#wrapper {
+    position: relative;
+    margin-left: auto; 
+    margin-right: auto;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    width: 80%;
+    overflow: auto;
+    flex-flow: row;
+    background-color: white;
+    box-shadow: 15px 25px 5px #888888;
+}
+
+#copyright {
+    width: 49%;
+    float: left;
+    height: 100%;
+    padding-top: 3%;
+    box-sizing: border-box;
+}
+
+footer {
+    text-align: center;
+    height: 7%;
+    width: 100%;
+    background-color: black;
+    display: block;
+    float: left;
+    color: white;
+    font-size: 0.9em;
+}
+
+#footer-nav {
+    color: white;
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+    height: 100%;
+    padding-bottom: 1%;
+}
+
+header {
+    height: 24%;
+    display: block;
+    float: left;
+}
+
+aside {
+    width: 20%;
+    box-sizing: border-box;
+    display: block;
+    float: left;
+    margin: 2%;
+    margin-top: 5%;
+}
+
+aside li a:hover {
+    border-left: 3px solid black;
+}
+
+main {
+    box-sizing: border-box;
+    width: 72%;
+    float: left;
+    height: 62%;
+    display: block;
+    margin: 2%;
+    text-align: justify;
+    padding-right: 2%;
+}
+
+main div {
+    font-size: 0.9em;
+}
+
+main div span {
+    font-weight: bold;
+}
+
+h2, h3, h4 {
+    color: #7F7F7F;
+}
+
+#hatcheries-image {
+    float: none;
+    width: 100%;
+    margin-right: 0%;
+}
+
+#mygallery {
+    width: 100%;
+    margin: 0%;    
+}
+
+nav {
+    width: 100%;
+    height: 4%;
+    border-bottom: 3px solid black;
+    border-top: 3px solid black;
+    display: block;
+    float: left;
+}
+
+header img {
+    width: 100%;
+}
+
+main img {
+    width: 50%;
+    float: left;
+    margin-right: 3%;
+    margin-bottom: 3%;
+}
+
+nav li a, aside li a, ol li a {    
+    text-decoration: none;
+    color: black;
+}
+
+#footer-nav li a {    
+    text-decoration: none;
+    color: white;
+}
+
+ul {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+ul li span {
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+nav ul {
+    font-size: 1em;
+    margin-left: 5%;
+    height: 50px;
+}
+
+nav ul li, #footer-nav ul li {
+    display: inline-block;
+    height: 100%;
+}
+
+nav ul li a, #footer-nav ul li a {
+    display:block;
+    height: 100%;
+    width: 100%;
+    margin-right: 30px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+nav ul li a:hover {
+    color: white;
+    background-color: black;
+    box-shadow: 5px 5px 5px #888888;
+}
+
+#breeds-header h1 {
+    margin: 0%;
+}
+
+#prints {
+    float: right;
+    width: 27%;
+    margin-right: 15%;
+    margin-bottom: 0%;
+}
+
+#dog-menu {
+    display: inline-block;
+}
+
+#dog-menu a:hover {
+    text-decoration: underline;
+}
+
+h1 {
+    font-size: 1.7em;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+h3 {
+    font-size: 1.3em;
+}
+
+h4 {
+    font-size: 1.1em;
+}

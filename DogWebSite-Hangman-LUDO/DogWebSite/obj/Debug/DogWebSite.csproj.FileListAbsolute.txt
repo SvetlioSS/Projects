@@ -1,0 +1,6 @@
+c:\users\svetl_000\documents\visual studio 2013\Projects\DogWebSite\DogWebSite\bin\DogWebSite.dll.config
+c:\users\svetl_000\documents\visual studio 2013\Projects\DogWebSite\DogWebSite\bin\DogWebSite.dll
+c:\users\svetl_000\documents\visual studio 2013\Projects\DogWebSite\DogWebSite\bin\DogWebSite.pdb
+c:\users\svetl_000\documents\visual studio 2013\Projects\DogWebSite\DogWebSite\obj\Debug\DogWebSite.csprojResolveAssemblyReference.cache
+c:\users\svetl_000\documents\visual studio 2013\Projects\DogWebSite\DogWebSite\obj\Debug\DogWebSite.dll
+c:\users\svetl_000\documents\visual studio 2013\Projects\DogWebSite\DogWebSite\obj\Debug\DogWebSite.pdb

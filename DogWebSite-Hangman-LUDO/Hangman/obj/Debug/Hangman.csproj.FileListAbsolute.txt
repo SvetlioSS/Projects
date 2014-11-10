@@ -1,0 +1,5 @@
+c:\users\svetl_000\documents\visual studio 2013\Projects\DogWebSite\Hangman\bin\Hangman.dll.config
+c:\users\svetl_000\documents\visual studio 2013\Projects\DogWebSite\Hangman\bin\Hangman.dll
+c:\users\svetl_000\documents\visual studio 2013\Projects\DogWebSite\Hangman\bin\Hangman.pdb
+c:\users\svetl_000\documents\visual studio 2013\Projects\DogWebSite\Hangman\obj\Debug\Hangman.dll
+c:\users\svetl_000\documents\visual studio 2013\Projects\DogWebSite\Hangman\obj\Debug\Hangman.pdb

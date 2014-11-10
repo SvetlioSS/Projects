@@ -1,0 +1,212 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Trouble</title>
+    <link href="styles/styles.css" rel="stylesheet" />
+    <script src="scripts/jquery-1.3.2.js"></script>
+    <script src="scripts/scripts.js"></script>
+    <script>
+        $(document).ready(function () {
+            startGame();
+        });
+    </script>
+</head>
+<body>
+    <div id="wrapper">
+        <div id="results">
+            <div id="red-title" class="glow-effect-red">
+                <p>Player 1</p>
+                <div class="whitePawn"></div>
+                <div class="whitePawn"></div>
+                <div class="whitePawn"></div>
+                <div class="whitePawn"></div>
+            </div>
+            <div id="blue-title">
+                <p>Player 2</p>
+                <div class="whitePawn"></div>
+                <div class="whitePawn"></div>
+                <div class="whitePawn"></div>
+                <div class="whitePawn"></div>
+            </div>
+            <div id="green-title">
+                <p>Player 3</p>
+                <div class="whitePawn"></div>
+                <div class="whitePawn"></div>
+                <div class="whitePawn"></div>
+                <div class="whitePawn"></div>
+            </div>
+            <div id="yellow-title">
+                <p>Player 4</p>
+                <div class="whitePawn"></div>
+                <div class="whitePawn"></div>
+                <div class="whitePawn"></div>
+                <div class="whitePawn"></div>
+            </div>
+        </div>
+        <div id="player-turn-and-dice">
+            <p id="turn">Player 1 turn</p>
+            <div>
+                <input id="roll_dice_button" type="button" value="roll dice" />
+            </div>
+            <div id="dice"></div>
+        </div>
+        <table>
+            <tbody>
+                <tr>
+                    <td id="top-left-square" rowspan="6" colspan="6"></td>
+                    <td id="blueArrow"></td>
+                    <td></td>
+                    <td></td>
+                    <td id="top-right-square" rowspan="6" colspan="6"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td class="blue">
+                        <div class="square"></div>
+                    </td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td class="blue">
+                        <div class="square"></div>
+                    </td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td class="blue">
+                        <div class="square"></div>
+                    </td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td class="blue">
+                        <div class="square"></div>
+                    </td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td class="blue">
+                        <div class="square"></div>
+                    </td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td id="middle" rowspan="3" colspan="3">
+                        <div id="middle-square"></div>     
+                        <div id="inner-square-red"></div>
+                        <div id="inner-square-blue"></div>
+                        <div id="inner-square-green"></div>
+                        <div id="inner-square-yellow"></div>
+                    </td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td id="greenArrow"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td class="red">
+                        <div class="square"></div>
+                    </td>
+                    <td class="red">
+                        <div class="square"></div>
+                    </td>
+                    <td class="red">
+                        <div class="square"></div>
+                    </td>
+                    <td class="red">
+                        <div class="square"></div>
+                    </td>
+                    <td class="red">
+                        <div class="square"></div>
+                    </td>
+                    <td class="green">
+                        <div class="square"></div>
+                    </td>
+                    <td class="green">
+                        <div class="square"></div>
+                    </td>
+                    <td class="green">
+                        <div class="square"></div>
+                    </td>
+                    <td class="green">
+                        <div class="square"></div>
+                    </td>
+                    <td class="green">
+                        <div class="square"></div>
+                    </td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td id="redArrow"></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td id="bottom-left-square" rowspan="6" colspan="6"></td>
+                    <td></td>
+                    <td class="yellow">
+                        <div class="square"></div>
+                    </td>
+                    <td></td>
+                    <td id="bottom-right-square" rowspan="6" colspan="6"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td class="yellow">
+                        <div class="square"></div>
+                    </td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td class="yellow">
+                        <div class="square"></div>
+                    </td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td class="yellow">
+                        <div class="square"></div>
+                    </td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td class="yellow">
+                        <div class="square"></div>
+                    </td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td id="yellowArrow"></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
